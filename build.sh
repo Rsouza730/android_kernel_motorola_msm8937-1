@@ -14,10 +14,10 @@ KERNEL_DEFCONFIG=nebula_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS=8
 ANY_KERNEL2_DIR=$KERNEL_DIR/AnyKernel2/
-FINAL_KERNEL_ZIP=Nebula-R1-Cedric.zip
+FINAL_KERNEL_ZIP=Elemental-R1-Cedric.zip
 
 # Export User & Host
-export KBUILD_BUILD_USER=CodeZero
+export KBUILD_BUILD_USER=CodeZero+infixremix
 export KBUILD_BUILD_HOST=root
 
 # Clean build always lol
