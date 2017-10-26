@@ -9,16 +9,16 @@ set -e
 
 ## Copy this script inside the kernel directory
 KERNEL_DIR=$PWD
-KERNEL_TOOLCHAIN=~/android/infix/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
-KERNEL_DEFCONFIG=nebula_defconfig
+KERNEL_TOOLCHAIN=~$HOME/nebula/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
+KERNEL_DEFCONFIG=radium_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS=8
 ANY_KERNEL2_DIR=$KERNEL_DIR/AnyKernel2/
-FINAL_KERNEL_ZIP=Elemental-R1-Cedric.zip
+FINAL_KERNEL_ZIP=Radium-R1-Cedric.zip
 
 # Export User & Host
-export KBUILD_BUILD_USER=CodeZero+infixremix+ATechnoHazard
-export KBUILD_BUILD_HOST=root
+export KBUILD_BUILD_USER=InfixRemix
+export KBUILD_BUILD_HOST=SohamLad7
 
 # Clean build always lol
 echo "**** Cleaning ****"
