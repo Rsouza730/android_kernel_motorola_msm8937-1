@@ -9,7 +9,7 @@ set -e
 
 ## Copy this script inside the kernel directory
 KERNEL_DIR=$PWD
-KERNEL_TOOLCHAIN=$HOME/work/arm-eabi-4.9/bin/arm-eabi-
+KERNEL_TOOLCHAIN=~/android/infix/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
 KERNEL_DEFCONFIG=nebula_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS=8
