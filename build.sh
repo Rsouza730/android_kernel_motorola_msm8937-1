@@ -14,7 +14,7 @@ KERNEL_DEFCONFIG=radium_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS=8
 ANY_KERNEL2_DIR=$KERNEL_DIR/AnyKernel2/
-FINAL_KERNEL_ZIP=Radium-R1-Cedric.zip
+FINAL_KERNEL_ZIP=Radium-R2-Cedric.zip
 
 # Export User & Host
 export KBUILD_BUILD_USER=InfixRemix
