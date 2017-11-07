@@ -9,7 +9,7 @@ set -e
 
 ## Copy this script inside the kernel directory
 KERNEL_DIR=$PWD
-KERNEL_TOOLCHAIN=~$HOME/nebula/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
+KERNEL_TOOLCHAIN=$HOME/nebula/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
 KERNEL_DEFCONFIG=radium_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS=8
